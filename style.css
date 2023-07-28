@@ -1,0 +1,23 @@
+header {
+  display: flex;
+  justify-content: space-around;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+}
+
+div {
+  display: flex;
+}
+
+.hero {
+  display: block;
+}
+
+.img {
+  float: right;
+}
+

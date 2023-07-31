@@ -1,11 +1,16 @@
+body {
+  font-family: 'Roboto';
+}
+
 div {
   display: flex;
 }
 
 .dark_container, footer{
   display: block;
-  background-color: #444;
-  color: white;
+  background-color: #1F2937;
+  color: #E5E7EB;
+  font-size: 18px;
   padding: 50px 0;
 }
 
@@ -15,7 +20,16 @@ header {
   margin: 15px 200px;
 }
 
+.logo {
+  font-size: 24px;
+  color: #F9FAF8
+}
 
+h1 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #F9FAF8
+}
 
 ul {
   display: flex;
@@ -25,7 +39,8 @@ ul {
 
 a {
   text-decoration: none;
-  color: white;
+  color: #E5E7EB;
+  font-size: 18px;
 }
 
 .top {
@@ -44,6 +59,8 @@ button {
   padding: 8px 14px;
   border: 1px solid;
   border-radius: 10px;
+  background-color: #3882F6;
+  color: #E5E7EB;
 }
 
 .img { 
@@ -58,6 +75,9 @@ h2 {
   display: flex;
   justify-content: center;
   margin: 40px;
+  font-size: 36px;
+  font-weight: 800;
+  color: #1F2937
 }
 
 .card_container {
@@ -84,15 +104,21 @@ h2 {
 }
 
 .quote_container {
-  background-color: #999;
+  background-color: #E5E7EB;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 150px 25%;
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937
 }
 
 .name {
   align-self: flex-end;
+  font-style: normal;
+  font-size: 24px;
+  font-weight: 800;
 }
 
 .bottom_container {
@@ -100,16 +126,27 @@ h2 {
   align-items: center;
   margin: 100px 100px;
   padding: 50px;
-  background-color: blue;
+  background-color: #3882F6;
   border-radius: 10px;
 }
 
-.btmtxt {
-  display: block;
-  color: white;
+.bottom_txt {
+  flex-direction: column;
+  justify-content: center;
+  color: #E5E7EB;
+  border: 1px black;
+  border-style: dashed;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 800;
+  border: 1px black;
+  border-style: dashed;
 }
 
 
 footer {
+  background-color: #1F2937;
   text-align: center;
 }
